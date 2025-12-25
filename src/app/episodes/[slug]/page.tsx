@@ -56,7 +56,7 @@ export default function EpisodeDetail({
       {/* Tags */}
       {ep.tags && (
         <div className="flex flex-wrap gap-2">
-          {ep.tags.map((tag: string) => (
+          {(ep.tags as string[]).map((tag) => (
             <span
               key={tag}
               className="text-xs px-2 py-1 bg-bg border border-line rounded-full"
@@ -69,4 +69,3 @@ export default function EpisodeDetail({
     </div>
   );
 }
-
