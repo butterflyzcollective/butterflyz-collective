@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-bg text-fg min-h-screen antialiased font-sans;
+}
+
+a {
+  @apply text-gold;
+}
+
+.text-link {
+  @apply underline;
+}
+/* Zocdoc-clean baseline */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
