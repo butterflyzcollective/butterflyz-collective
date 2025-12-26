@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { DJS } from '@/lib/data/djs';
+import { DJS } from '@/lib';
 import DJCard from '@/components/dj-card';
 
 export default function DJsPage() {

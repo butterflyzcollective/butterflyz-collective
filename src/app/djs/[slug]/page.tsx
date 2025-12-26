@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import QuoteBuilder from "../../../quote-builder";
-import { DJS } from "@/lib/data/djs";
+import { DJS } from "@/lib";
 
 export default function DJProfile({
   params,

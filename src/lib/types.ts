@@ -16,3 +16,13 @@ export type DJ = {
   leadTimeDays?: number;
 };
 
+export type Episode = {
+  slug: string;
+  title: string;
+  description: string;
+  thumbnailUrl: string;
+  youtubeUrl?: string;
+  featuredDJSlug?: string;
+  tags?: string[];
+  publishDate: string;
+};

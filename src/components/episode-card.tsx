@@ -1,13 +1,6 @@
 import Link from "next/link";
-import { DJS } from "@/lib/data/djs";
-
-interface Episode {
-  slug: string;
-  title: string;
-  description?: string;
-  thumbnailUrl: string;
-  featuredDJSlug?: string;
-}
+import { DJS } from "@/lib";
+import type { Episode } from "@/lib/types";
 
 interface EpisodeCardProps {
   episode: Episode;
@@ -60,4 +53,3 @@ export default function EpisodeCard({ episode }: EpisodeCardProps) {
     </article>
   );
 }
-

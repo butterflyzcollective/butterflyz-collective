@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { EPISODES } from "@/lib/data/episodes";
-import { DJS } from "@/lib/data/djs";
+import { DJS, EPISODES } from "@/lib";
 
 export default function EpisodeDetail({
   params,

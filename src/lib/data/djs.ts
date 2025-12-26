@@ -1,4 +1,4 @@
-import { DJ } from "@/lib/types";
+import type { DJ } from "@/lib/types";
 
 export const DJS: DJ[] = [
   {

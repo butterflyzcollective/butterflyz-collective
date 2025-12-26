@@ -1,4 +1,4 @@
-import { EPISODES } from '@/lib/data/episodes';
+import { EPISODES } from '@/lib';
 import EpisodeCard from '@/components/episode-card';
 
 export default function EpisodesPage() {
